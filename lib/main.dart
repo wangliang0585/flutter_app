@@ -10,7 +10,6 @@ void main() => runApp(new MyApp());
 class MyHomePage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return new MyHomeApp();
   }
 }
@@ -18,7 +17,6 @@ class MyHomePage extends StatefulWidget {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return new MaterialApp(
         home: new Scaffold(
           body: new MyHomePage(),
