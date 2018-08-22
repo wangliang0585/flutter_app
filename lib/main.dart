@@ -64,5 +64,3 @@ class MyHomeApp extends State<MyHomePage> with SingleTickerProviderStateMixin {
 
   }
 }
-
-
